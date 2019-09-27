@@ -5,24 +5,19 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/com-dubbo-common" />
+    <file type="web" url="file://$PROJECT_DIR$/com-dubbo-order-service" />
     <file type="web" url="file://$PROJECT_DIR$/com-dubbo-user-api" />
     <file type="web" url="file://$PROJECT_DIR$/com-dubbo-user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/comdubbouserservice" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/com-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/comdubbouserservice/pom.xml" />
+        <option value="$PROJECT_DIR$/com-dubbo-order-api/pom.xml" />
+        <option value="$PROJECT_DIR$/com-dubbo-order-service/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/com-dubbo-common/com-dubbo-user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/com-dubbo-user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/com-dubbo/com-dubbo-user-api/pom.xml" />
-        <option value="$PROJECT_DIR$/com-dubbo/com-dubbo-user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/com-dubbo/com.dubbo.common/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectResources">

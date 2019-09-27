@@ -4,6 +4,7 @@ import pojo.User;
 
 public interface UserService {
 
-    Integer addUser(User user);
+    void addUser(User user);
     String sayHello(String msg);
+    void DeleteUser(Integer uid);
 }

@@ -8,9 +8,31 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../com-dubbo/pom.xml</relativePath>
     </parent>
+    <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>com.dubbo.common</artifactId>
-    <packaging>pom</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+    </dependencies>
+    <modules>
+        <module>../com-dubbo-user-api</module>
+        <module>../comdubbouserservice</module>
+        <module>../com-dubbo-order-api</module>
+        <module>../com-dubbo-order-service</module>
+    </modules>
 
 </project>

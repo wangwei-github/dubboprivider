@@ -260,8 +260,6 @@
 
     <modules>
         <module>../com-dubbo-common</module>
-        <module>../com-dubbo-user-api</module>
-        <module>../comdubbouserservice</module>
     </modules>
 
 

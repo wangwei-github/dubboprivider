@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-<jsp:forward  page="user/hello.do"/>
+<%--<jsp:forward  page="emp/hello"/>--%>666666666666 OK
 </body>
 </html>

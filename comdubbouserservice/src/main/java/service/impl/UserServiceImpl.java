@@ -12,12 +12,22 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
-    public Integer addUser(User user) {
+    public void addUser(User user) {
         int rows = userMapper.insert(user);
-        return rows;
+        if (rows==0){
+            throw new RuntimeException("添加用户失败！");
+        }
     }
 
     public String sayHello(String msg) {
         return msg;
+    }
+
+    @Override
+    public void DeleteUser(Integer uid) {
+        int rows = userMapper.deleteByPrimaryKey(uid);
+        if (rows==0){
+            throw new RuntimeException("删除用户失败！");
+        }
     }
 }
