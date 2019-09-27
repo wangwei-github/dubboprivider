@@ -27,7 +27,9 @@
         由于父子容器关系，service(父)的属性文件在springmbc层(子)是读不到的，子只能读取对象，属性是读取不到的
     -->
     <context:property-placeholder location="classpath:mybatis/*.properties"/>
-
+    <!-- 读取db.properties -->
+    <util:properties id="dbConfig"
+                     location="classpath:mybatis/db.properties"/>
     <!-- 配置数据源 -->
     <bean id="dataSource"
           class="com.alibaba.druid.pool.DruidDataSource">

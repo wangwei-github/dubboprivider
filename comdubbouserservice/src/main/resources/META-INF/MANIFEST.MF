@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Class-Path: commons-pool-1.5.4.jar zookeeper-3.4.11.jar commons-dbcp-1
+ .4.jar spring-core-4.3.18.RELEASE.jar javassist-3.20.0-GA.jar solr-so
+ lrj-4.10.1.jar httpclient-4.3.5.jar spring-jdbc-4.3.18.RELEASE.jar sp
+ ring-aop-4.3.18.RELEASE.jar slf4j-api-1.7.9.jar curator-framework-2.9
+ .1.jar jstl-1.1.0.jar spring-beans-4.3.18.RELEASE.jar slf4j-log4j12-1
+ .7.9.jar spring-context-4.3.18.RELEASE.jar hamcrest-core-1.3.jar dubb
+ o-2.7.3.jar spring-expression-4.3.18.RELEASE.jar mybatis-spring-1.2.2
+ .jar gson-2.8.5.jar commons-logging-1.1.3.jar log4j-1.2.16.jar noggit
+ -0.5.jar netty-3.10.5.Final.jar servlet-api-2.5.jar commons-io-2.2.ja
+ r junit-4.11.jar spring-tx-4.3.18.RELEASE.jar snakeyaml-1.20.jar nett
+ y-all-4.1.25.Final.jar mysql-connector-java-5.1.38.jar mybatis-3.2.8.
+ jar wstx-asl-3.2.7.jar mybatis-generator-core-1.3.2.jar spring-webmvc
+ -4.3.18.RELEASE.jar httpcore-4.3.2.jar jline-0.9.94.jar commons-codec
+ -1.6.jar httpmime-4.3.1.jar audience-annotations-0.5.0.jar aspectjwea
+ ver-1.8.6.jar curator-client-2.9.1.jar druid-1.1.0.jar curator-recipe
+ s-2.9.1.jar spring-web-4.3.18.RELEASE.jar guava-16.0.1.jar
+Main-Class: service.impl.Provider
+

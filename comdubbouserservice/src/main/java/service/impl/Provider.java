@@ -8,9 +8,9 @@ import org.springframework.web.util.Log4jConfigListener;
 
 public class Provider {
     public static void main(String[] args) throws Exception {
-//        Logger logger = LoggerFactory.getLogger(Provider.class);
-//
-//        logger.info(",,,,,,,,,,,,,,,,,,,,,,,,,,");
+       Logger logger = LoggerFactory.getLogger(Provider.class);
+
+       logger.info(",,,,,,,,,,,,,,,,,,,,,,,,,,");
         //BasicConfigurator.configure();
         System.err.println("dddddd");
         System.setProperty("java.net.preferIPv4Stack", "true");
